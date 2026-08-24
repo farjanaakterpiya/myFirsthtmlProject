@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table Advanced</title>
+    <style>
+        table,
+        td{
+            border:1px solid black;
+           border-collapse: collapse;
+            padding:5px;
+          
+        }
+    
+
+        
+        table{
+            width: 500px;
+            
+
+        }
+        
+        
+        thead,
+        tfoot {
+            background-color:burlywood;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h3>HTML Table Advanced</h3>
+    <table>
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>Name</td>
+                <td>Email</td>
+                <td>Phone</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>piya</td>
+                <td>@gmail.com</td>
+                <td>01366</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>piya</td>
+                <td>@gmail.com</td>
+                <td>01366</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>piya</td>
+                <td>@gmail.com</td>
+                <td>01366</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr></tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">1 Person info</td>
+                
+            </tr>
+        </tfoot>
+    </table border="1">
+    <h3>Cell Merging</h3>
+    <table>
+        <caption>Product Information</caption>
+        <tr>
+            <td colspan="4">A</td>
+            
+        </tr>
+        <tr>
+            <td rowspan="3">E</td>
+            <td>F</td>
+            <td>G</td>
+            <td>H</td>
+        </tr>
+        <tr>
+            
+            <td>J</td>
+            <td>K</td>
+            <td>L</td>
+        </tr>
+    </table>
+</body>
+</html>
